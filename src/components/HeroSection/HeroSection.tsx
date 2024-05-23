@@ -21,7 +21,7 @@ export const HeroSection = () => {
             <p className="text-sm text-muted-foreground">New & Updated Version 2.0 is live!</p>
           </div>
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
-            Create a Job-Ready <span className="text-blue-500">Resume</span> in Minutes
+            Create a Job-Ready <span className="text-primary">Resume</span> in Minutes
           </h1>
           <h2 className="text-lg font-medium tracking-tight  md:text-xl">Fast, Easy, and Effective</h2>
 

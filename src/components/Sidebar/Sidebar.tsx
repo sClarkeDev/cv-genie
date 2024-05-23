@@ -27,6 +27,7 @@ export const Sidebar = () => {
       <SheetTrigger asChild>
         <Button className="md:hidden" variant="ghost" size="icon">
           <Menu className="h-7 w-7" />
+          <span className="sr-only">Toggle Navigation Menu</span>
         </Button>
       </SheetTrigger>
       <SheetContent className="flex flex-col">
@@ -56,6 +57,8 @@ export const Sidebar = () => {
               <a href="https://github.com/sClarkeDev/cv-genie" target="_blank" rel="noopener noreferrer">
                 <GitHubLogoIcon className="h-4 w-4" />
               </a>
+
+              <span className="sr-only">Github Repository</span>
             </Button>
           </div>
         </SheetFooter>

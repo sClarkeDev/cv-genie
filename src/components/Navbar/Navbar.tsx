@@ -51,6 +51,8 @@ export const Navbar = () => {
             <a href="https://github.com/sClarkeDev/cv-genie" target="_blank" rel="noopener noreferrer">
               <GitHubLogoIcon className="h-4 w-4" />
             </a>
+
+            <span className="sr-only">Github Repository</span>
           </Button>
         </div>
       </div>
