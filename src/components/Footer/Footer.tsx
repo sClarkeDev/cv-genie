@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="space-y-1">
               <p className="text-xl font-medium tracking-tight">sClarkeDev</p>
 
-              <p className="text-sm text-muted-foreground">sclarkedev@gmail.com</p>
+              <p className="text-sm text-secondary-muted">sclarkedev@gmail.com</p>
             </div>
 
             <a href="https://github.com/sClarkeDev/cv-genie" target="_blank" rel="noopener noreferrer">
@@ -18,12 +18,12 @@ export const Footer = () => {
             </a>
           </div>
 
-          <p className="text-muted-foreground max-w-xl text-sm">
+          <p className="text-secondary-muted max-w-xl text-sm">
             CVGenie is a fictional company and website created for demonstration purposes. All content on this site is
             purely fictional and does not represent any actual products, services, or organizations.
           </p>
 
-          <a className="text-sm text-muted-foreground" href="https://storyset.com/people">
+          <a className="text-sm text-secondary-muted" href="https://storyset.com/people">
             People illustrations by Storyset
           </a>
         </div>

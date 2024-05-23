@@ -14,7 +14,10 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   title: 'CV Genie',
-  description: 'Create or update your resume in seconds!'
+  description: 'Create or update your resume in seconds!',
+  icons: {
+    icon: '/icon.png'
+  }
 };
 
 export default function RootLayout({
