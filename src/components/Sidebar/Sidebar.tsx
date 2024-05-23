@@ -56,9 +56,8 @@ export const Sidebar = () => {
             <Button variant="ghost" size="icon" asChild>
               <a href="https://github.com/sClarkeDev/cv-genie" target="_blank" rel="noopener noreferrer">
                 <GitHubLogoIcon className="h-4 w-4" />
+                <span className="sr-only">Github Repository</span>
               </a>
-
-              <span className="sr-only">Github Repository</span>
             </Button>
           </div>
         </SheetFooter>
