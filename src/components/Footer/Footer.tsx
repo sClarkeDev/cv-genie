@@ -15,6 +15,7 @@ export const Footer = () => {
 
             <a href="https://github.com/sClarkeDev/cv-genie" target="_blank" rel="noopener noreferrer">
               <GitHubLogoIcon className="h-5 w-5" />
+              <span className="sr-only">Github Repository</span>
             </a>
           </div>
 
