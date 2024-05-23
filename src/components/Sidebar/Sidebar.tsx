@@ -54,9 +54,13 @@ export const Sidebar = () => {
             <ThemeToggle />
 
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com/sClarkeDev/cv-genie" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/sClarkeDev/cv-genie"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Github Repository"
+              >
                 <GitHubLogoIcon className="h-4 w-4" />
-                <span className="sr-only">Github Repository</span>
               </a>
             </Button>
           </div>
